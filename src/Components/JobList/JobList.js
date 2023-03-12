@@ -1,38 +1,26 @@
 import React from 'react';
+import './JobList.css';
 
 const JobList = () => {
     return (
-        <div className='alumniContainer'>
-            <div className='alumni' >
-                <h2>Kanta Bhattacharjee</h2>
-                <p>ID: 20-*****-1</p>
-                <p>Email: 20-*****-1@student.aub.edu</p>
-                <p>Status: Active</p>
+        <div className='JobContainer'>
+            <div className='job' >
+                <h2>Software Engineer</h2>
+                <p>Deadline: 20/3/23</p>
+                <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione repellat assumenda voluptates fuga beatae repudiandae reprehenderit aliquid laboriosam numquam, eos quae quidem eum vel. Quo praesentium quia adipisci asperiores?</p>
             </div>
-            <div className='alumni' >
-                <h2>John Smith</h2>
-                <p>ID: 20-*****-1</p>
-                <p>Email: 20-*****-1@student.aub.edu</p>
-                <p>Status: Active</p>
+            <div className='job' >
+                <h2>Data Analyst </h2>
+                <p>Deadline: 20/3/23</p>
+                <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione repellat assumenda voluptates fuga beatae repudiandae reprehenderit aliquid laboriosam numquam, eos quae quidem eum vel. Quo praesentium quia adipisci asperiores?</p>
             </div>
-            <div className='alumni' >
-                <h2>Trinity</h2>
-                <p>ID: 20-*****-1</p>
-                <p>Email: 20-*****-1@student.aub.edu</p>
-                <p>Status: Active</p>
+            <div className='job' >
+                <h2>QA Engineer</h2>
+                <p>Deadline: 20/3/23</p>
+                <p>Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione repellat assumenda voluptates fuga beatae repudiandae reprehenderit aliquid laboriosam numquam, eos quae quidem eum vel. Quo praesentium quia adipisci asperiores?</p>
             </div>
-            <div className='alumni' >
-                <h2>Neo</h2>
-                <p>ID: 20-*****-1</p>
-                <p>Email: 20-*****-1@student.aub.edu</p>
-                <p>Status: Active</p>
-            </div>
-            <div className='alumni' >
-                <h2>Mordok</h2>
-                <p>ID: 20-*****-1</p>
-                <p>Email: 20-*****-1@student.aub.edu</p>
-                <p>Status: Active</p>
-            </div>
+
+
         </div>
     );
 };
