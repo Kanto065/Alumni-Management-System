@@ -1,0 +1,13 @@
+.alumniContainer {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 30px;
+}
+
+.alumni {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 1px;
+    background-color: lightblue
+}
